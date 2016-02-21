@@ -1,0 +1,25 @@
+I think diff helps see the mistakes in syntax or silly spelling mistakes easily.
+This improves the efficiency with which we can debug a problem. 
+Diff is important when we are comparing longer files. It also helps maintain 
+Version Control better. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I think having access to the whole history can help debug bugs that have compounded
+and are missed in some old version, still remain in the code and you want to get rid of them. You can have the whole history of check ins/versions and have it available for 
+yourself when you decide to root cause the bug.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+I think There are many advantages of manually doing a Version-control commit. Although there is always a human error, if a person knows how to use version-control,he/she will 
+know when to commit i.e. after each logical change. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think coding where there are files interrelated to each other and the changes to one file may impact the other file. Also there are times when simultaneous changes are required in multiple files in order for the code to either compile or work
+
+How can you use the commands git log and git diff to view the history of files?
+git log is useful to see the log of commits to the repository starting from the most recent commit. We can see the commit and affected files corresponding to that commit. git organizes the commits into versions. git diff command helps see the difference between the two versions of the repository. 
+
+How might using version control make you more confident to make changes that could break something?
+I can always go back to an earlier version using git checkout and hence be confident about making a mistake
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I am making a project website for my Sister, so I will use git as version control. 
